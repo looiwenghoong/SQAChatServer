@@ -14,7 +14,7 @@ public class Server {
 	public Server (int port) {
 		try {
 			server = new ServerSocket(port);
-			System.out.println("Server has been initialised on the port of " + port);
+			System.out.println("Server has been initialised on port " + port);
 		}
 		catch (IOException e) {
 			System.err.println("error initialising server");
